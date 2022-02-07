@@ -1,0 +1,91 @@
+.email__section{
+    display:flex;
+    align-items:flex-start;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-bottom: 1px solid rgb(230, 225, 225);
+}
+
+.email__section:hover{
+    box-shadow: 0.1px 0px 2px gray;
+    transition: all 0.3 ease-in-out;
+    border-bottom: 1px solid gray;
+
+}
+
+span{
+    font-size:16px;
+}
+
+img{
+    height:19px;
+}
+
+.left{
+    display:flex;
+    flex:58%;
+    gap: 10px;
+    margin-left:8px;
+    align-items: center;
+}
+
+.middle{
+    align-items:center;
+    flex:77%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:100px;
+}
+
+.right{
+    display:flex;
+    flex:16%;
+    align-items:center;
+}
+
+.right>span{
+    font-size:15px;
+}
+
+
+
+.inbox__emails{
+    overflow: auto;
+    height : 72vh;
+}
+
+.file__wrap{
+    display:flex;
+    align-items:center;
+    border:1px solid rgb(212, 211, 211);
+    padding:3px 10px;
+    border-radius:20px;
+    gap: 10px;
+    color:gray;
+    margin-top: 10px;
+    width:200px;
+
+}
+
+.file__wrap:hover{
+
+    box-shadow: 0.1px 0px 2px gray;
+    transition: all 0.3 ease-in-out;
+    border-bottom: 1.2px solid gray;
+}
+
+.username__mail {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 250px;
+}
+
+.file__wrap>span{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:200px;
+
+}

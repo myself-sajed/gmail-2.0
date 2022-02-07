@@ -1,0 +1,132 @@
+
+
+.inbox__sectionme{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.mail__header__left{
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap: 30px;
+    position: relative;
+}
+
+.one__mail{
+    overflow:auto;
+}
+
+.open__mail__loader{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 30px;
+}
+
+.super__section{
+    height:80vh;
+    overflow: auto;
+}
+
+
+
+.mail__header__left>img{
+    height:21px;
+    cursor: pointer;
+}
+
+.mail__left{
+    height:23px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+.mail__section{
+    margin-top:30px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.mail__section>p{
+    font-size:30px;
+}
+
+.mail__right{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+}
+
+.profile__mail{
+    height:30px;
+    width: 30px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.mail__right>img{
+    height:19px;
+
+}
+
+
+.left_flex_me{
+    display:flex;
+    gap: 30px;
+    align-items:center;
+    flex:50%;
+    justify-content:flex-start;
+}
+.right_flex_me{
+    display:flex;
+    gap: 30px;
+    align-items:center;
+    flex:50%;
+    justify-content:flex-end;
+}
+
+.mail__id__left{
+    display:flex;
+    align-items:center;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.mail__id__right{
+    display:flex;
+    align-items:center;
+    cursor: pointer;
+    gap: 30px;
+}
+
+.mail__id{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 10px 3px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.mail__body{
+    padding: 20px 100px
+}
+
+.attachment{
+    height: 200px;
+    width: 200px;
+    border: 2px solid gray;
+    object-fit: cover;
+    cursor: pointer;
+    overflow:hidden;
+}
+
+.attachments{
+    display: flex;
+    align-items:center;
+    gap: 15px;
+}

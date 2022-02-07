@@ -1,0 +1,90 @@
+.compose__modal{
+    height: 70vh;
+    background-color: white;
+    position: absolute;
+    top:30vh;
+    left:55vw;
+    width: 38vw;
+    box-shadow: 0 0 10px rgb(165, 162, 162);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.gmail__clone{
+    position: relative;
+}
+
+.new__message{
+    color: white;
+    background-color: rgb(63, 62, 62);
+    display:flex;
+    align-items: center;
+    border-top-left-radius:12px;
+    border-top-right-radius: 12px;
+    padding:10px;
+    justify-content: space-between;
+}
+
+.new__message > svg{
+    cursor: pointer;
+}
+
+.email__body{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    height: 50vh;
+
+}
+
+.email__body>input{
+    outline:none !important;
+    border:none;
+    padding:5px;
+    border-bottom: 1px solid rgb(204, 203, 203) !important;
+    
+}
+
+.email__body>textarea{
+    outline:none !important;
+    border:none;
+    padding:5px;
+
+}
+
+.send{
+    padding:10px !important;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.send>.left>button>svg{
+    margin-left:3px;
+    padding-left:3px;
+}
+
+.send>.left>button{
+    padding: 8px 30px;
+}
+
+.send>.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.send>.right>img{
+    height: 20px;
+    cursor: pointer;
+}
+
+.exright{
+    display: flex;
+    align-items: center;
+    margin-left:5rem;
+    gap: 20px;
+}
+
+
+

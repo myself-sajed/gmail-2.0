@@ -1,0 +1,26 @@
+.gmail__logo__loading > img{
+    width: 40%;
+    height: 45%;
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    z-index: 1;
+
+}
+
+.gmail__logo__loading > .loader{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    z-index: 1;
+}
+
+.gmail__logo__loading > button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    z-index: 1;
+}
+
+
+
